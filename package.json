@@ -1,0 +1,16 @@
+{
+  "name": "extract_article",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Felipe Santos <fesntmail@gmail.com> (felipecoder.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "node-readability": "^2.2.0"
+  }
+}
