@@ -4,7 +4,7 @@ var express = require('express');
 var read = require('node-readability');
 
 // Constants
-var PORT = 8080;
+var PORT = 3000;
 
 // App
 var app = express();
