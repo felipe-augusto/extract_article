@@ -10,6 +10,9 @@ var PORT = 3000;
 var app = express();
 
 app.get('/', function (req, res) {
+	if (global.gc) {
+	    global.gc();
+	}
 	if(req.query.url) {
 		read(req.query.url, function(err, article, meta) {
 			if(err) {
